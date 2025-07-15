@@ -69,6 +69,153 @@ Tagline:
 The TallyWhacker™ –
 “Every tab told. Every skank logged.”
 
+--------------------------
+
+# 🎭 BOB POS Presents: DaveWatch™ – Episode I
+
+## “The Unslippery Ledger of Yai Ooan”
+
+### Format: 2-page comic layout
+
+Style: Classic Western comic — variable panel sizes, expressive inked linework, speech bubbles, and SkankChain terminal-style log captions.
+
+---
+
+## 🧾 PAGE 1: “THE RETURN”
+
+### Panel 1 (wide horizontal)
+
+**Scene**: Exterior of the guesthouse café. Hammocks, sand, faded Coca-Cola fridge. Dave enters, arms wide.
+
+* **Dave**: “Yai! I’m back! Argentina was epic!”
+* **Caption (terminal style)**:
+
+  ```
+  [SkankChain] > OrderSession.start({ customerID: "dave_vagabond", timestamp: now() })
+  ```
+
+### Panel 2 (tight square)
+
+**Yai Ooan behind the counter, squinting.**
+
+* **Thought bubble (Thai)**: "ไอ้เหี้ยมาอีกละ…"
+* **Translated caption**: "Wanker."
+
+### Panel 3 (medium horizontal)
+
+**Dave gesturing dramatically, Yai unimpressed.**
+
+* **Dave**: “I stayed with friends — gave them some ideas, you know?”
+* **Yai**: “Very generous of you.”
+* **Caption**:
+
+  ```
+  [Note] > dave.selfReported.unpaid_stay += 1
+  ```
+
+### Panel 4 (tall vertical)
+
+**Dave ordering at the counter.**
+
+* **Dave**: “Can I get a Coke? And… you got that mung bean curry still?”
+* **Caption**:
+
+  ```
+  orderSession.items.push({ item: "Coca-Cola", price: 25 })
+  orderSession.items.push({ item: "Crusty Vegan Mung Thing", price: 90 })
+  ```
+
+### Panel 5 (wide, bottom of page)
+
+**Dave signals the gardener across the courtyard.**
+
+* **Dave (whispering)**: “Add a lil’ green to my tab?”
+* **Caption**:
+
+  ```
+  orderSession.items.push({ item: "Herbal Supplement", price: 150, source: "gardener" })
+  ```
+
+---
+
+## 🧾 PAGE 2: “THE SMOOTHIE STING”
+
+### Panel 6 (medium square)
+
+**Dave strolling past waitress.**
+
+* **Dave**: “Smoothie banana, yeah? Bring it down to the driftwood bench.”
+* **Caption**:
+
+  ```
+  orderSession.items.push({ item: "Banana Smoothie", price: 65, delivery: "Beach Drop" })
+  ```
+
+### Panel 7 (wide horizontal)
+
+**Dave grabs a Leo from fridge. Yai still facing away.**
+
+* **Dave**: “I got this one!”
+* **Yai**: “One beer. Logged.”
+* **Caption**:
+
+  ```
+  orderSession.items.push({ item: "Leo Beer", price: 50, method: "Visual Theft Intercept" })
+  ```
+
+### Panel 8 (square)
+
+**Dave offers coins and an incense stick.**
+
+* **Dave**: “Here… sixty Baht and some incense?”
+* **Yai**: \[Silent, logging]
+* **Caption**:
+
+  ```
+  tabPartialPayment: 60
+  ```
+
+### Panel 9 (wide final panel)
+
+**Reckoning at week’s end. Dave sweats, reading tally.**
+
+* **Dave**: “Oh wait yeah… yeah, I did get those smoothies.”
+* **Yai**: “Also: bike rental. Seven days. 500 Baht scratch fine.”
+* **Caption**:
+
+  ```json
+  {
+    "customer": "dave_vagabond",
+    "items": [
+      { "item": "Coca-Cola", "price": 25 },
+      { "item": "Crusty Vegan Mung Thing", "price": 90 },
+      { "item": "Herbal Supplement", "price": 150 },
+      { "item": "Banana Smoothie", "price": 65 },
+      { "item": "Leo Beer", "price": 50 }
+    ],
+    "extras": [
+      { "item": "Motorbike Rental (7 days)", "price": 1400 },
+      { "item": "Scratch Fee", "price": 500 }
+    ],
+    "partialPayments": [60],
+    "totalDue": 2220,
+    "status": "Pending Payment"
+  }
+  ```
+
+### Optional Final Tag Panel (bottom right corner)
+
+**Close-up: Yai Ooan’s eyes, unmoved.**
+
+* **Caption**: *“SkankChain™: Every coconut accounted for.”*
+
+
+
+
+
+
+------------------------
+
 [01:25, 15/07/2025] Nathan: 🎭 BOB POS: DaveWatch™ – Episode I
 “The Unslippery Ledger of Yai Ooan”
 Powered by SkankChain™
